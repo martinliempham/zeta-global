@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Zeta Global</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="h1-container">
+      <h1>Medication Delivered</h1>
+    </div>
+    <div class="h2-container">
+      <h2>to Your Doorstep!</h2>
+    </div>
+    <div class="h3-container">
+      <h3>Pain Survey <br/>
+          Online
+      </h3>
+    </div>
+    <div class="form2-container">
+    <form id="part2">
+      <div class="email">
+        <input type="text" name="email" placeholder="Email Address"><br/>
+      </div>
+      <div class="state">
+        <select name="state" id="st"/>
+        <script>
+        function fill() {
+  var obj = {
+    Data: {
+      Alabama: 'AL',
+      Alaska: 'AK',
+      Arizona: 'AZ',
+      Arkansas: 'AR',
+      California: 'CA',
+      Colorado: 'CO',
+      Connecticutt: 'CT',
+      Delaware: 'DE',
+      Florida: 'FL',
+      Georgia: 'GA',
+      Hawaii: 'HI',
+      Idaho: 'ID',
+      Illinois: 'IL',
+      Indiana: 'IN',
+      Iowa: 'IA',
+      Kansas: 'KS',
+      Kentucky: 'KY',
+      Louisiana: 'LA',
+      Maine: 'ME',
+      Massachusetts: 'MA',
+      Michigan: 'MI',
+      Minnesota: 'MN',
+      Mississippi: 'MS',
+      Missouri: 'MO',
+      Montana: 'MT',
+      Nebraska: 'NE',
+      Nevada: 'NV',
+      NewHampshire: 'NH',
+      NewJersey: 'NJ',
+      NewMexico: 'NM',
+      NewYork: 'NY',
+      NorthCarolina: 'NC',
+      NorthDakota: 'ND',
+      Ohio: 'OH',
+      Oklahoma: 'OK',
+      Oregon: 'OR',
+      Pennsylvania: 'PA',
+      RhodeIsland: 'RI',
+      SouthCarolina: 'SC',
+      SouthDakota: 'SD',
+      Tennessee: 'TN',
+      Texas: 'TX',
+      Utah: 'UT',
+      Vermont: 'VT',
+      Virginia: 'VA',
+      Washington: 'WA',
+      WestVirginia: 'WV',
+      Wisconsin: 'WI',
+      Wyoming: 'WY'
+    }
+  };
+  var s = $('st');
+  var i = 0;
+  for (var propertyName in obj.Data) {
+    st.options[i++] = new Option(
+      propertyName,
+      obj.Data[propertyName],
+      true,
+      false
+    );
+  }
+}
+
+fill();
+</script>
+      </div>
+      <div class="income">
+        <input type="number" name="income" placeholder="Income">
+      </div>
+
+      <div class="radio-button">
+        <input type="radio">
+      </div>
+      <div class="membership-paragraph-container">
+        <div class="first-line">
+          <p>includes:</p>
+        </div>
+        <div class="second-line">
+          <p>Free <span style="color:green;">90</span> day</p>
+        </div>
+        <div class="third-line">
+          <p>membership*</p>
+        </div>
+        <div class="fourth-line">
+          <p>to our Tele <br/>Medicine Doctor</p>
+        </div>
+      </div>
+      <div class="bottom-paragraph-container">
+        <p>By clicking SUBMIT below you agree to our terms and conditions and privacy policy and consent to be contacted at the number you provided above by Pharma Management, with more information and offers about perscription pain medication via telephone or mobile device whether by a live person, pre-recorded voice or automated dialer.  You are not required to consent as a condition of purchase.  Standard message and data rates may apply</p>
+      </div>
+      
+      <div class="submit2">
+        <button class="button">SUBMIT</button>
+      </div>
+      </form>
+    </div>
+
+  </div>
+  <div class="icons-container">
+    <div class="phone">
+      <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-1lykr90.q76s/my-icons-collection.zip/004-technology.png" alt="phone">
+      <p>Call</p>
+    </div>
+    <div class="clock">
+      <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-gb813f.i7xx8/my-icons-collection.zip/003-alarm-clock.png" alt="clock">
+      <p>Consult</p>
+    </div>
+    <div class="pills">
+      <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-1ammrbn.p07e/my-icons-collection.zip/002-pills.png" alt="pills">
+      <p>Confirm</p>
+    </div>
+    <div class="house">
+      <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-di7sz9.baq1/my-icons-collection.zip/001-home.png" alt="house">
+      <p>Collect</p>
+    </div>
+  </div>
+
+  </body>
+</html>
+
+
+
+
+
+
+<!--
+<select name="income" id="salary" type="text"/>
+<script>
+function fill() {
+  var obj = {
+    Data: {
+      More: '$50,000+',
+      Less: '$50,000-'
+    }
+  };
+  var s = $('salary');
+  var i = 0;
+  for (var propertyName in obj.Data) {
+    salary.options[i++] = new Option(
+      propertyName,
+      obj.data[propertyName],
+      true,
+      false
+    );
+  }
+}
+
+fill();
+</script> -->

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Zeta Global</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <div class="submit-container">
+      <style>
+      .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 75px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 12px;
+        margin-bottom: 15px;
+      }
+
+      .button:hover {
+        background-color: green;
+      }
+    </style>
+    </div>
+  </head>
+
+
+  <body>
+    <div class="h1-container">
+      <h1>Medication Delivered</h1>
+    </div>
+    <div class="h2-container">
+      <h2>to Your Doorstep!</h2>
+    </div>
+    <div class="h3-container">
+      <h3>Pain Survey <br/>
+          Online
+      </h3>
+    </div>
+    <div class="form-container">
+      <div class="top-paragraph-container">
+        <p>Complete our form and we will contact you with our survey to help <br/>Step 1</p>
+      </div>
+      <form class="part1form" method="get" action="part2form.html">
+        <div class="firstname-container">
+          <input type="text" minlength="2" placeholder="First Name" size="40" required><br/>
+        </div>
+        <div class="lastname-container">
+          <input type="text" minlength="2" placeholder="Last Name" size="40" required><br/>
+        </div>
+        <div class="DOB-container">
+          <input placeholder="Date of Birth" class="textbox-n" type="text" size="40" onfocus="(this.type='date')"><br/>
+        </div>
+        <div class="zip-container">
+          <input type="text" pattern="^\d{5}" placeholder="Zip Code" size="40" required title="Must be 5 numbers"><br/>
+        </div>
+        <!-- wasn't able to figure out how to allow user to include spaces and leave out spaces at the same time -->
+        <div class="telephone-container">
+          <input type="tel" pattern="^\d{10}$"  placeholder="Telephone Number" size="40" required title="Please enter 10 digit number"><br/>
+        </div>
+        <div class="radio-button">
+          <input type="radio">
+        </div>
+        <div class="membership-paragraph-container">
+          <div class="first-line">
+            <p>includes:</p>
+          </div>
+          <div class="second-line">
+            <p>Free <span style="color:green;">90</span> day</p>
+          </div>
+          <div class="third-line">
+            <p>membership*</p>
+          </div>
+          <div class="fourth-line">
+            <p>to our Tele <br/>Medicine Doctor</p>
+          </div>
+        </div>
+        <div class="bottom-paragraph-container">
+          <p>By clicking SUBMIT below you agree to our terms and conditions and privacy policy and consent to be contacted at the number you provided above by Pharma Management, with more information and offers about perscription pain medication via telephone or mobile device whether by a live person, pre-recorded voice or automated dialer.  You are not required to consent as a condition of purchase.  Standard message and data rates may apply</p>
+        </div>
+        <button class="button">SUBMIT</button>
+
+      </form>
+  </div>
+  <div class="icons-container">
+    <div class="phone">
+      <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-1lykr90.q76s/my-icons-collection.zip/004-technology.png" alt="phone">
+      <p>Call</p>
+    </div>
+    <div class="clock">
+      <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-gb813f.i7xx8/my-icons-collection.zip/003-alarm-clock.png" alt="clock">
+      <p>Consult</p>
+    </div>
+    <div class="pills">
+      <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-1ammrbn.p07e/my-icons-collection.zip/002-pills.png" alt="pills">
+      <p>Confirm</p>
+    </div>
+    <div class="house">
+      <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-di7sz9.baq1/my-icons-collection.zip/001-home.png" alt="house">
+      <p>Collect</p>
+    </div>
+  </div>
+
+
+
+  </body>
+</html>
