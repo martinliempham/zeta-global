@@ -21,12 +21,12 @@
           Online
       </h3>
     </div>
-    <div class="form2-container">
+    <div class="form2">
     <form id="part2">
-      <div class="email">
+      <div class="form2-container">
         <input type="text" name="email" placeholder="Email Address"><br/>
       </div>
-      <div class="state">
+      <div class="form2-container">
         <select name="state" id="st"/>
         <script>
         function fill() {
@@ -98,7 +98,7 @@
 fill();
 </script>
       </div>
-      <div class="income">
+      <div class="form2-container">
         <input type="number" name="income" placeholder="Income">
       </div>
 
@@ -122,7 +122,7 @@ fill();
       <div class="bottom-paragraph-container">
         <p>By clicking SUBMIT below you agree to our terms and conditions and privacy policy and consent to be contacted at the number you provided above by Pharma Management, with more information and offers about perscription pain medication via telephone or mobile device whether by a live person, pre-recorded voice or automated dialer.  You are not required to consent as a condition of purchase.  Standard message and data rates may apply</p>
       </div>
-      
+
       <div class="submit2">
         <button class="button">SUBMIT</button>
       </div>
@@ -130,20 +130,20 @@ fill();
     </div>
 
   </div>
-  <div class="icons-container">
-    <div class="phone">
+  <div class="icons">
+    <div class="icons-container">
       <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-1lykr90.q76s/my-icons-collection.zip/004-technology.png" alt="phone">
       <p>Call</p>
     </div>
-    <div class="clock">
+    <div class="icons-container">
       <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-gb813f.i7xx8/my-icons-collection.zip/003-alarm-clock.png" alt="clock">
       <p>Consult</p>
     </div>
-    <div class="pills">
+    <div class="icons-container">
       <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-1ammrbn.p07e/my-icons-collection.zip/002-pills.png" alt="pills">
       <p>Confirm</p>
     </div>
-    <div class="house">
+    <div class="icons-container">
       <img src="/var/folders/2x/zzg7kgq50g3bb1nw4qbh9xv80000gn/T/atom-118312-746-di7sz9.baq1/my-icons-collection.zip/001-home.png" alt="house">
       <p>Collect</p>
     </div>
@@ -151,33 +151,3 @@ fill();
 
   </body>
 </html>
-
-
-
-
-
-
-<!--
-<select name="income" id="salary" type="text"/>
-<script>
-function fill() {
-  var obj = {
-    Data: {
-      More: '$50,000+',
-      Less: '$50,000-'
-    }
-  };
-  var s = $('salary');
-  var i = 0;
-  for (var propertyName in obj.Data) {
-    salary.options[i++] = new Option(
-      propertyName,
-      obj.data[propertyName],
-      true,
-      false
-    );
-  }
-}
-
-fill();
-</script> -->
